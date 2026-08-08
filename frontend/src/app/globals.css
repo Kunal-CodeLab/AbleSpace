@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Core Reset & Fonts */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ffffff;
+  color: #18181b;
+}
+
+.dark body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+/* Dynamic Accent Colors */
+:root {
+  --primary-accent: #3b82f6;
+}
+
+.theme-amber {
+  --primary-accent: #f59e0b;
+}
+
+.theme-blue {
+  --primary-accent: #3b82f6;
+}
+
+.theme-pink {
+  --primary-accent: #ec4899;
+}
+
+.theme-rose {
+  --primary-accent: #f43f5e;
+}
+
+.theme-emerald {
+  --primary-accent: #10b981;
+}
+
+.theme-black {
+  --primary-accent: #18181b;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-in {
+  animation: fadeIn 0.15s ease-out forwards;
+}
