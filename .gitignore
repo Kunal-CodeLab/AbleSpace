@@ -86,11 +86,11 @@ pnpm-debug.log*
 *.dmp
 
 
+
+
+
 # --- Auto-detected Sensitive Credentials & Database Files ---
 backend/tsconfig.json
 frontend/postcss.config.cjs
 frontend/tsconfig.json
-
-
-# --- Auto-detected Sensitive Credentials & Database Files ---
 tsconfig.json
