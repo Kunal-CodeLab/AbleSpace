@@ -1,5 +1,5 @@
 # ==========================================
-# AUTOMATICALLY GENERATED GITIGNORE (GITAUTO PUSH)
+# AUTOMATICALLY GENERATED GITIGNORE
 # ==========================================
 
 # --- OS & System Files ---
@@ -30,7 +30,6 @@ $RECYCLE.BIN/
 *.der
 credentials.json
 client_secret.json
-config.json
 
 # --- IDEs, Editors & User Settings ---
 .vscode/
@@ -84,13 +83,3 @@ pnpm-debug.log*
 *.ldf
 *.sql
 *.dmp
-
-
-
-
-
-# --- Auto-detected Sensitive Credentials & Database Files ---
-backend/tsconfig.json
-frontend/postcss.config.cjs
-frontend/tsconfig.json
-tsconfig.json
