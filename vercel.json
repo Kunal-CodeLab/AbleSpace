@@ -1,8 +1,10 @@
 {
+  "outputDirectory": ".next",
   "services": {
     "frontend": {
       "root": "frontend",
-      "framework": "nextjs"
+      "framework": "nextjs",
+      "outputDirectory": ".next"
     },
     "backend": {
       "root": "backend"
